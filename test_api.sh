@@ -1,3 +1,3 @@
 flask --app test run
 flask run 
-pthon3 /opt/test.py
+pthon /opt/test.py
