@@ -1,4 +1,4 @@
-FROM devilbox/python-flask
+FROM devilbox/python-flask:3.8-dev
 
 COPY ./test.py /opt/
 RUN apt-get update -y
