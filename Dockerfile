@@ -1,4 +1,4 @@
-FROM tiango/uwsgi-nginx-flask:python3.8
+FROM devilbox/python-flask
 
 COPY ./test.py /opt/
 RUN apt-get update -y
